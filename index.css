@@ -1,0 +1,274 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x:hidden ;
+}
+
+header nav {
+    overflow: auto;
+}
+
+header nav section p {
+
+    padding: 10px 100px;
+    background-color: #fff;
+}
+
+header nav section a.logo svg {
+    width: 100px;
+    /* color: #fff; */
+}
+
+header nav #allSection {
+    position: fixed;
+    width: 100%;
+}
+
+@media (max-width:1000px) {
+    #allSection{
+        top: 0px !important;
+    }
+}
+
+header nav #allSection section {
+    display: inline-block;
+    padding: 10px 33px;
+}
+
+header nav #allSection section .chg-Color {
+    text-decoration: none;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: transparent;
+    transition: 1s;
+}
+
+header nav #allSection section .chg-Color:hover {
+    background-color: rgb(36, 35, 35);
+}
+
+header nav #allSection section .chg-Color2 {
+    text-decoration: none;
+    padding: 10px 20px;
+    color: #000;
+    background-color: transparent;
+    transition: 1s;
+}
+
+header nav #allSection section .chg-Color2:hover {
+    background-color: rgb(246, 240, 240);
+}
+
+@media (max-width:1279px) {
+    .firstNavbar {
+        display: none;
+    }
+
+    .deletSection {
+        display: none !important;
+    }
+
+
+}
+
+/* end navbar style */
+
+main .bg-img {
+    background-image: url(https://tesla-cdn.thron.com/delivery/public/image/tesla/5a7b3001-249f-4065-a330-4ea6a17ccf7b/bvlatuR/std/2560x1708/Model-3-Main-Hero-Desktop-LHD);
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    padding: auto;
+    
+}
+
+main .bg-img div {
+    width: auto;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+}
+
+#contanier{
+    display: flex;
+    justify-content: center ;
+    align-items: flex-end;
+}
+
+#contanier .m-div{
+    margin: 0px 20px !important;
+}
+
+@media (max-width:1000px) {
+    #contanier{
+        display: block;
+    }
+    #contanier .m-div{
+        margin: 30px 0px !important;
+    }
+}
+
+
+main .bg-img div a {
+    color: #fff;
+    font-weight: 700;
+}
+
+
+main .bg-img .my-arrow{
+    width: 50px;
+    margin: auto;
+    animation: MoveUpDown 1s linear infinite;
+}
+
+main .bg-img .my-arrow a{
+    color: #fff;
+}
+
+main .bg-img .my-arrow a:hover{
+    color: #fff;
+}
+
+main .bg-img .my-arrow a:active{
+    color: #fff;
+} 
+
+@keyframes MoveUpDown {
+    from {
+     transform: translateY(0);
+    }
+    to {
+        transform: translateY(10px);
+    }
+  }
+
+main section ul {
+    list-style: none;
+    position: fixed;
+    top: 200px;
+}
+
+main section ul li {
+    padding: 5px 5px;
+    cursor: pointer !important;
+    color: #fff;
+}
+
+main section ul li a{
+    color: #fff;
+}  
+main section ul li a:hover{
+    color: #fff;
+}
+
+.active {
+    font-weight: 900;
+}
+
+
+main section ul li span {
+    color: #fff;
+    font-weight: 500;
+    padding: 0px 10px;
+    opacity: 0;
+    transition: 1.2s;
+}
+
+main section ul li:hover span {
+    opacity: 1;
+}
+
+
+#chate {
+    border-radius: 50%;
+    border: none;
+    background-color: #fff;
+    position: fixed;
+    bottom: 50px;
+    right: 40px;
+    cursor: pointer !important;
+    animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+    50% {
+        box-shadow: rgba(255, 255, 255, 0.35) 0px 0px 0px 5px;
+    }
+}
+
+#chate i {
+    font-size: 20px;
+    color: #000;
+    padding: 20px;
+}
+
+
+#contanier div button{
+    border: solid 1px #fff;
+    padding: 10px 100px;
+    background-color: transparent;
+    color: #fff;
+}
+
+#contanier div button:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+#safety .container div a{
+    color: black;
+}
+
+#safety .container div button{
+    padding: 10px 20px;
+}
+
+#safety .container div button:first-child{
+    border: none;
+    background-color: transparent;
+}
+#safety .container div button:first-child span{
+    border: #000 solid 2px;
+    border-radius: 50%;
+    font-size: 20px;
+
+}
+
+#safety .container div button:first-child span i{
+    padding: 10px 5px;
+}
+
+#safety .container div button:first-child:hover span{
+    background-color: #000;
+}
+
+#safety .container div button:first-child:hover span i{
+    color: #fff;
+}
+
+#safety .container div button:last-child{
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 5px 20px;
+    width: 50%;
+}
+
+#safety .container div button:last-child:hover{
+    background-color: #000;
+    color: #fff;
+    
+}
+
+#Performance{
+    background-image: url(./Model-3-Performance-Hero-Desktop-LHD.jfif);
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    padding: auto;
+}

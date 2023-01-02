@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+    <header>
+        <nav class="firstNavbar">
+            <section>
+                <p>Take delivery of a new Model 3 between December 21 and 31, 2022 for a $7,500 credit and 10,000 miles
+                    of free Supercharging.<a
+                        href="https://www.tesla.com/inventory/new/m3?arrangeby=relevance&zip=95113&range=200"> See
+                        available inventory.</a></p>
+            </section>
+        </nav>
+        <nav>
+            <div id="allSection">
+                <section class="">
+                    <a href="./index.html" class="logo chg-Color">
+                        <svg class="tds-icon tds-icon-logo-wordmark tds-site-logo-icon" viewBox="0 0 342 35"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M0 .1a9.7 9.7 0 0 0 7 7h11l.5.1v27.6h6.8V7.3L26 7h11a9.8 9.8 0 0 0 7-7H0zm238.6 0h-6.8v34.8H263a9.7 9.7 0 0 0 6-6.8h-30.3V0zm-52.3 6.8c3.6-1 6.6-3.8 7.4-6.9l-38.1.1v20.6h31.1v7.2h-24.4a13.6 13.6 0 0 0-8.7 7h39.9v-21h-31.2v-7h24zm116.2 28h6.7v-14h24.6v14h6.7v-21h-38zM85.3 7h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7zm0 13.8h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7zm0 14.1h26a9.6 9.6 0 0 0 7.1-7H78.3a9.6 9.6 0 0 0 7 7zM308.5 7h26a9.6 9.6 0 0 0 7-7h-40a9.6 9.6 0 0 0 7 7z"
+                                fill="currentColor"></path>
+                        </svg>
+                    </a>
+                </section>
+                <section class="deletSection">
+                    <a class="chg-Color" href="">Model S</a>
+                    <a class="chg-Color" href="">Model 3</a>
+                    <a class="chg-Color" href="">Model x</a>
+                    <a class="chg-Color" href="">Model y</a>
+                    <a class="chg-Color" href="">Solar Roof</a>
+                    <a class="chg-Color" href="">Solar Panels</a>
+                </section>
+                <section class="deletSection">
+                    <a class="chg-Color" href="">Shop</a>
+                    <a class="chg-Color" href="">Acount</a>
+                    <a class="chg-Color" href="">Menu</a>
+                </section>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="bg-img" id="model3">
+            <br>
+            <br>
+            <div>
+                <div>
+                    <h2>Model 3</h2>
+                    <a href="">Schedule a Demo Drive</a>
+                </div>
+                <br>
+                <br>
+                <br>
+                <div>
+                    <div id="contanier">
+                        <div class="m-div">
+                            <div>
+                                <i class="fa-solid fa-gauge"></i>
+                                <span style="padding-left: 5px;">3.1 s</span>
+                            </div>
+                            <h6>0-60 mph*</h6>
+                        </div>
+                        <div class="m-div">
+                            <div>
+                                358 mi
+                            </div>
+                            <h6>Range (EPA est.)</h6>
+                        </div>
+                        <div class="m-div">
+                            <div>
+                                AWD
+                            </div>
+                            <h6>Dual Motor</h6>
+                        </div>
+                        <div class="m-div">
+                            <div>
+                                <button>Buy Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="my-arrow">
+                <a href="#safety">
+                    <i class="fa-solid fa-angle-down"></i>
+                </a>
+            </div>
+        </section>
+        <br>
+        <section>
+            <ul>
+                <li>
+                    <a onclick="myActive(this)" class="chg-active active" href="#model3">|</a>
+                    <span class="span-chg">model3</span>
+                </li>
+                <li>
+                    <a onclick="myActive(this)" class="chg-active" href="#safety">|</a>
+                    <span class="span-chg">safety</span>
+                </li>
+                <li>
+                    <a onclick="myActive(this)" class="chg-active" href="#Performance">|</a>
+                    <span class="span-chg">Performance</span>
+                </li>
+                <li>
+                    <a onclick="myActive(this)" class="chg-active" href="#">|</a>
+                    <span class="span-chg">All-Wheel Drive</span>
+                </li>
+                <li>
+                    <a onclick="myActive(this)" class="chg-active" href="#">|</a>
+                    <span class="span-chg">Range</span>
+                </li>
+                <li>
+                    <a onclick="myActive(this)" class="chg-active" href="#">|</a>
+                    <span class="span-chg">Autopilot</span>
+                </li>
+                <li>
+                    <a onclick="myActive(this)" class="chg-active" href="#">|</a>
+                    <span class="span-chg">Interior</span>
+                </li>
+                <li>
+                    <a onclick="myActive(this)" class="chg-active" href="#">|</a>
+                    <span class="span-chg">Specs</span>
+                </li>
+                <li>
+                    <a onclick="myActive(this)" class="chg-active" href="#">|</a>
+                    <span class="span-chg">Order</span>
+                </li>
+            </ul>
+        </section>
+        <section>
+            <div id="chate">
+                <i class="fa-solid fa-message"></i>
+            </div>
+        </section>
+
+
+
+        <section id="safety">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-sm-12">
+                        <img class="img-fluid" src="./Screenshot 2022-12-30 162619.png" alt="">
+                    </div>
+                    
+                    <div class="col-md-4 col-sm-12 mt-md-5 mb-md-5">
+                        <div>
+                            <h6>Safety</h6>
+                            <h2>Built for Safety</h2>
+                        </div>
+                        <div>Safety is the most important part of every Tesla. We design our vehicles to <a href="">
+                                exceed safety standards.</a>
+                        </div>
+                        <br>
+                        <div>
+                            <h6>5-Star Rating</h6>
+                            <p>Model 3 achieved NHTSA 5-star safety ratings in every category and subcategory.</p>
+                        </div>
+                        <div>
+                            <h6>Top Safety Pick+</h6>
+                            <p>Model 3 received the IIHS Top Safety Pick+ award, with top ratings in all crashworthiness
+                                and front crash prevention categories.</p>
+                        </div>
+                        <div>
+                            <button>
+                                <span><i class="fa-solid fa-plus"></i></span>
+                                Learn More
+                            </button>
+                            <button>Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="Performance">
+           
+        </section>
+
+    </main>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+
+<script>
+
+    function myFunction() {
+        debugger;
+        window.addEventListener('scroll', () => {
+            const scroll = window.scrollY;
+            // debugger;
+            const li = document.getElementsByClassName('chg-active');
+            const span = document.getElementsByClassName('span-chg');
+
+            if (parseInt(scroll) < 80) {
+                document.getElementById('allSection').style.backgroundColor = 'transparent';
+                document.getElementById('allSection').style.top = "60px";
+                for (let i = 0; i < li.length; i++) {
+                    const element = li[i];
+                    element.style.color = "#fff";
+                }
+
+                for (let i = 0; i < span.length; i++) {
+                    const element = span[i];
+                    element.style.color = "#fff";
+                }
+
+                const a = document.getElementsByClassName('chg-Color2');
+                for (let i = 0; i < a.length; i++) {
+                    const element = a[i];
+                    element.classList.remove('chg-Color2');
+                    element.classList.add('chg-Color')
+
+                }
+            }
+            else {
+                console.log(scroll);
+
+                document.getElementById('allSection').style.backgroundColor = '#fff';
+                document.getElementById('allSection').style.top = "0px";
+
+
+                for (let i = 0; i < li.length; i++) {
+                    const element = li[i];
+                    element.style.color = "#000";
+                }
+                for (let i = 0; i < span.length; i++) {
+                    const element = span[i];
+                    element.style.color = "#f00";
+                }
+
+                const a = document.getElementsByClassName('chg-Color');
+                for (let i = 0; i < a.length; i++) {
+                    const element = a[i];
+
+                    element.classList.remove('chg-Color');
+                    element.classList.add('chg-Color2')
+
+                }
+            }
+
+        });
+
+
+        // nav.style.backgroundColor="#fff";
+    }
+    myFunction();
+
+    function myActive(par) {
+        const li = document.getElementsByClassName('chg-active');
+        console.log(li);
+        for (let i = 0; i < li.length; i++) {
+            const element = li[i];
+            element.classList.remove("active")
+        }
+
+        console.log(par.classList.add('active'));
+    }
+</script>
+
+
+</html>
+
+<!-- https://tesla-cdn.thron.com/delivery/public/image/tesla/1a5ba4b1-efd8-40bc-8b6d-e81bf8223e37/bvlatuR/std/2560x1440/Model-3-Performance-Hero-Desktop-LHD -->
